@@ -1,0 +1,65 @@
+% ============================================================
+%  Journal and editorial metadata
+% ============================================================
+%
+%  Author workflow: write the paper and edit 1-system/0-meta.tex.
+%  Editorial workflow: fill these values during final typesetting.
+%
+%  The placeholders below make draft metadata visibly provisional.
+% ------------------------------------------------------------
+
+% ----- Journal identity -------------------------------------
+% The ISSN, assigned by the ISSN Centre Switzerland. Called ISSN and not eISSN:
+% the journal is online only, so it holds exactly one number and the register
+% calls that number the ISSN. Changing it here updates every masthead, footer
+% and citation line.
+\renewcommand{\swJournalName}{Swissi AI Journal}
+\renewcommand{\swISSNPrefix}{3043}
+\renewcommand{\swISSNSuffix}{1921}
+\renewcommand{\swJournalURL}{https://journal.swissi-ai.institute}
+\renewcommand{\swJournalEmail}{journal@swissi-ai.institute}
+\renewcommand{\swPublisher}{Swissi AI Journal}
+
+% ----- Article identity -------------------------------------
+% Volume equals the calendar year of publication.
+% The journal publishes continuously; there are no issues.
+\renewcommand{\swVolume}{2026}
+\renewcommand{\swYear}{2026}
+
+% DOI, without the https://doi.org/ prefix (the template adds it).
+\renewcommand{\swDOI}{10.5281/zenodo.21901247}
+
+% Journal-hosted article record and full-text page.
+%
+% The trailing segment is the paper's Swissi hash address: the first 12 base32
+% characters of sha256 over the English title, derived with
+% 1-Agentic-Workflows/1-DOI-Swissi-Anchor-Workflow/bin/hash.mjs. Full form:
+% Sw2:academic01:doi:p1:f3jtignfyge3sorthchi2pzbjowklrynqvelcgfrfgfkozbktiwa:b40d18d1
+% Once printed in a published paper this address is frozen and is not
+% recomputed if the title later changes.
+%
+% No language segment: the site redirects the unprefixed path to the reader's
+% own language (a German browser lands on /de/, anything else on /en/), so one
+% printed address serves every reading version.
+\renewcommand{\swSwissiHash}{f3jtignfyge3}
+\renewcommand{\swSwissiAddress}{Sw2:academic01:obj:p1:f3jtignfyge3sorthchi2pzbjowklrynqvelcgfrfgfkozbktiwa:ba9cca65}
+
+% ----- Article type -----------------------------------------
+% Research Article | Review | Case Study | Position Paper
+\renewcommand{\swArticleType}{\swLangText{Research Article}{Forschungsartikel}}
+
+% ----- Editorial dates --------------------------------------
+\renewcommand{\swSubmitted}{03/26}
+\renewcommand{\swRevised}{04/26}
+\renewcommand{\swPublishedDate}{05/26}
+
+% ----- Licence ----------------------------------------------
+% CC BY 4.0 is the journal default: it satisfies DOAJ and Plan S, and
+% it is the least restrictive licence compatible with attribution.
+\renewcommand{\swLicence}{CC BY 4.0}
+\renewcommand{\swLicenceURL}{https://creativecommons.org/licenses/by/4.0/}
+
+% ----- Journal policy references ----------------------------
+% These author-page anchors collect the policy details and option tables.
+\renewcommand{\swOpenAccessPolicyURL}{https://journal.swissi-ai.institute/authors\#open-access}
+\renewcommand{\swCreditTaxonomyURL}{https://journal.swissi-ai.institute/authors\#credit-taxonomy}
