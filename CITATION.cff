@@ -3,17 +3,17 @@ message: "If you use this work, please cite the paper using the metadata below."
 title: "Firm Valuation When AI Shapes the Business Model: A Milestone-Based Real-Options Framework for the AI Valuation Uncertainty Problem"
 type: article
 authors:
-  - family-names: Kurz
-    given-names: Walter
+  - family-names: "Kurz"
+    given-names: "Walter"
     orcid: "https://orcid.org/0009-0006-8045-4775"
-  - family-names: Stricker
-    given-names: Wojtek
-  - family-names: Marx
-    given-names: Stefan
-  - family-names: Reinhardt
-    given-names: Frank
-  - family-names: Kollberg
-    given-names: Florian
+  - family-names: "Stricker"
+    given-names: "Wojtek"
+  - family-names: "Marx"
+    given-names: "Stefan"
+  - family-names: "Reinhardt"
+    given-names: "Frank"
+  - family-names: "Kollberg"
+    given-names: "Florian"
 journal: Swissi AI Journal
 volume: "2026"
 identifiers:

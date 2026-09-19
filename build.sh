@@ -9,4 +9,4 @@ pdflatex -interaction=nonstopmode -halt-on-error "$paper"
 pdflatex -interaction=nonstopmode -halt-on-error "$paper"
 pdflatex -interaction=nonstopmode -halt-on-error "$paper"
 
-printf 'Built source/Swissi-2026-05-f3jtignfyge3-ValuationAI-BusinessModelImpact.pdf\n'
+printf 'Built source/%s.pdf\n' "${paper%.tex}"
