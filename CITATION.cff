@@ -22,6 +22,6 @@ identifiers:
     description: Published paper DOI
   - type: other
     value: "arXiv:2609.24181"
-    description: arXiv preprint identifier
+    description: arXiv identifier of the published article
 license: CC-BY-4.0
 url: "https://journal.swissi-ai.institute/en/doi/f3jtignfyge3"
