@@ -20,5 +20,8 @@ identifiers:
   - type: doi
     value: "10.5281/zenodo.21901247"
     description: Published paper DOI
+  - type: other
+    value: "arXiv:2609.24181"
+    description: arXiv preprint identifier
 license: CC-BY-4.0
 url: "https://journal.swissi-ai.institute/en/doi/f3jtignfyge3"

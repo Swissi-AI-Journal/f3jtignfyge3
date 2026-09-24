@@ -6,6 +6,7 @@ This repository contains the publication artifacts for:
 
 - Journal record: https://journal.swissi-ai.institute/en/doi/f3jtignfyge3
 - DOI: `10.5281/zenodo.21901247`
+- arXiv: https://arxiv.org/abs/2609.24181
 - Full paper: [`paper.pdf`](paper.pdf)
 - arXiv source archive: [`arxiv-source.zip`](arxiv-source.zip)
 - Extracted LaTeX source: [`source/`](source/)
